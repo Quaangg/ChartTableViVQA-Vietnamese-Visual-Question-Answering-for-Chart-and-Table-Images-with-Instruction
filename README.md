@@ -38,23 +38,6 @@ Structured in **JSON** with:
 
 ---
 
-## Methodology
-
-1. **Data Collection**  
-   Gathered charts and tables from trusted Vietnamese educational platforms.  
-   Ensured numerical accuracy by verifying against official statistical data.
-
-2. **Question–Answer Generation**  
-   Used GPT-based automation to produce diverse QA types, followed by human review for linguistic quality and correctness.
-
-3. **Reasoning Instruction Creation**  
-   Added clear, step-by-step reasoning to each QA pair to support explainable AI.
-
-4. **Benchmarking**  
-   Tested **Qwen2.5-VL-7B-Instruct** on the dataset and measured performance using BERTScore, BLEU, ROUGE, and METEOR.
-
----
-
 ## Installation
 
 **Prerequisites**
